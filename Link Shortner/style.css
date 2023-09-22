@@ -1,0 +1,54 @@
+
+body
+{
+    height: 100vh;
+    padding:20px;
+    font-family: cursive;
+    font-size: x-large;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+  /* background-image: linear-gradient(to bottom,rgb(166, 117, 235) 15%,rgb(242, 138, 230) 85%); */
+     /* background-image: url("https://www.pixelstalk.net/wp-content/uploads/2016/04/Texture-wallpaper-HD-download-desktop.jpg"); */
+     background-image: url("https://files.123freevectors.com/wp-content/original/161204-grey-and-white-grunge-texture-background-image.jpg?w=500");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+  
+}
+.container
+{
+    background-image: linear-gradient(to top,rgb(235, 74, 53) 10%,rgb(241, 166, 119) 90%);
+    padding: 1.2rem;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 30px;
+    opacity: 1;
+}
+
+button
+{
+    height: 8vh;
+    width: 20vh;
+    border-radius: 10px; 
+    background-color: rgb(19, 134, 113);
+    font-family: cursive;
+    font-size: x-large;
+    padding: 10px;
+}
+h1{
+    margin: 1rem 0;
+    text-align: center;
+    text-decoration: underline;
+}
+input
+{
+    width: 90%;
+    padding:  .9rem;
+    margin: 1.2rem 0;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+button:hover
+{
+    background-color:rgb(88, 220, 196);
+}
